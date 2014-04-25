@@ -8,7 +8,6 @@
 # Usage: ./exclude.py <file1.csv> <file2.csv>
 ##################################################
 import sys
-
 SPLITTEGN = ";"
 
 #
@@ -31,8 +30,11 @@ try:
 except:
     print("Usage ./exclude.py <firstFile> <secondFile>")
 
+#
+# Make outfile path
+#
+newPath = slist[0]+"New."+slist[1]
 slist = firstPath.split(".");
-newPath = slist[0]+"New"+slist[1]
 
 # Start loop 
 try:
