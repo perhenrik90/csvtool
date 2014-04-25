@@ -58,4 +58,4 @@ for linje1 in file1:
     if not iandrefil:
         fileout.write(linje1)
 
-            
+print("The result is written to: "+newPath)
