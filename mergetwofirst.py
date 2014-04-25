@@ -16,7 +16,7 @@ filename = sys.argv[1]
 try:
         infile = open(filename)
 except:
-        print("Kan ikke aapne filen " + filename)
+        print("Can not open file: " + filename)
 
 outfile = open(filename+"New","w")
 

@@ -15,7 +15,7 @@ filename = sys.argv[1]
 try:
 	f = open(filename)
 except:
-	print("Kan ikke aapne filen " + filename)
+	print("Can not open file: " + filename)
 
 
 output = ""
