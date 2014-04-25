@@ -33,8 +33,9 @@ except:
 #
 # Make outfile path
 #
-newPath = slist[0]+"New."+slist[1]
 slist = firstPath.split(".");
+newPath = slist[0]+"New."+slist[1]
+
 
 # Start loop 
 try:
