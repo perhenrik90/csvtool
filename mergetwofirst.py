@@ -8,10 +8,12 @@
 #
 import sys
 
+#split symbol, change to , if you like. 
 splittSym = ";"
 
 # Open files 
 filename = sys.argv[1]
+
 
 try:
         infile = open(filename)
@@ -21,7 +23,7 @@ except:
 outfile = open(filename+"New","w")
 
 
-# Travaser csv filen 
+# Loop trough the lines in the file 
 for line in infile:
     # fjern linje skift
     line = line.rstrip() 
@@ -43,6 +45,7 @@ for line in infile:
     outfile.write(newline)
 
 
+# close files
 infile.close()
 outfile.close()
 
