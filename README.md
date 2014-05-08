@@ -4,9 +4,11 @@ A set of python scripts I use to edit, sort, split etc of Comma-separated values
 
 The python scripts are standalone executables.
 
+- chopfile.py : split one csv file in many files.
 - exclude.py : exclude rows from file1 witch is not contained in file 2.
-- mergetwofirst.py : merge first and second column
 - firstbigchar.py : converts big chars only to small ones with big at start
+- mergetwofirst.py : merge first and second column
+
 
 
 
